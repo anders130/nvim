@@ -10,10 +10,10 @@ return {
     },
     config = function()
         require('neo-tree').setup {
-            source_selector = {
-                winbar = true,
-                statusline = true
-            },
+            -- source_selector = {
+            --     winbar = true,
+            --     statusline = true
+            -- },
             document_symbols = true
         }
     end,
